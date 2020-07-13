@@ -1,0 +1,9 @@
+{
+ "argv": [
+  "python373-gimkl-2018b.sh",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3.7.3 (gimkl-2018b)",
+ "language": "python"
+}

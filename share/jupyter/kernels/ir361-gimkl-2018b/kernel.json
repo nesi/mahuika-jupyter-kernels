@@ -1,0 +1,5 @@
+{
+  "argv": ["ir361-gimkl-2018b.sh", "--slave", "-e", "IRkernel::main()", "--args", "{connection_file}"],
+  "display_name": "R 3.6.1 (gimkl-2018b)",
+  "language": "R"
+}
