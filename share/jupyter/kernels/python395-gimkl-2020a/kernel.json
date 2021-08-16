@@ -1,0 +1,9 @@
+{
+ "argv": [
+  "python395-gimkl-2020a.sh",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3.9.5 (gimkl-2020a)",
+ "language": "python"
+}
