@@ -1,0 +1,5 @@
+{
+  "argv": ["ir410-gimkl-2020a.sh", "--slave", "-e", "IRkernel::main()", "--args", "{connection_file}"],
+  "display_name": "R 4.1.0 (gimkl-2020a)",
+  "language": "R"
+}
