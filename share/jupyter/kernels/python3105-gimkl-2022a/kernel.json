@@ -1,0 +1,9 @@
+{
+ "argv": [
+  "python3105-gimkl-2022a.sh",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3.10.5 (gimkl-2022a)",
+ "language": "python"
+}
