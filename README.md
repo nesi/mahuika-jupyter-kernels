@@ -10,7 +10,7 @@ Custom Jupyter kernels for Mahuika.
   - name one of your Python kernel directories *python3* to override the default
     (otherwise you will end up with duplicates)
 * the *share/jupyter* directory should be added to `JUPYTER_PATH`
-* add the *bin* director to `PATH`
+* add the *bin* directory to `PATH`
 
 To run a Python kernel the *ipykernel* package is required.
 

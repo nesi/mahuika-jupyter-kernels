@@ -1,0 +1,5 @@
+{
+  "argv": ["ir421-gimkl-2022a.sh", "--slave", "-e", "IRkernel::main()", "--args", "{connection_file}"],
+  "display_name": "R 4.2.1 (gimkl-2022a)",
+  "language": "R"
+}
