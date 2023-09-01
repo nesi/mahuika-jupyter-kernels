@@ -1,9 +1,16 @@
 {
  "argv": [
-  "anaconda3-2019.03-gimkl-2018b.sh",
+  "nesi-kernel-runner.sh",
+  "python",
+  "-m",
+  "ipykernel_launcher",
   "-f",
   "{connection_file}"
  ],
  "display_name": "Anaconda3 2019.03 (gimkl-2018b)",
- "language": "python"
+ "language": "python",
+ "env": {
+  "NESI_KERNEL_NAME": "JupyterKernel/Anaconda3-2019.03-gimkl-2018b",
+  "NESI_MODULES": "Anaconda3/2019.03-gimkl-2018b Spark/2.3.1-gimkl-2018b-Hadoop-2.7"
+ }
 }

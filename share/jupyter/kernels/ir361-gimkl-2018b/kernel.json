@@ -1,5 +1,9 @@
 {
-  "argv": ["ir361-gimkl-2018b.sh", "--slave", "-e", "IRkernel::main()", "--args", "{connection_file}"],
+  "argv": ["nesi-kernel-runner.sh", "R", "--slave", "-e", "IRkernel::main()", "--args", "{connection_file}"],
   "display_name": "R 3.6.1 (gimkl-2018b)",
-  "language": "R"
+  "language": "R",
+  "env": {
+    "NESI_KERNEL_NAME": "JupyterKernel/R-3.6.1-gimkl-2018b",
+    "NESI_MODULES": "IRkernel/1.0.1-gimkl-2018b Spark/2.3.1-gimkl-2018b-Hadoop-2.7"
+  }
 }

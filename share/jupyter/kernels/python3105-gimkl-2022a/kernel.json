@@ -1,9 +1,16 @@
 {
  "argv": [
-  "python3105-gimkl-2022a.sh",
+  "nesi-kernel-runner.sh",
+  "python",
+  "-m",
+  "ipykernel_launcher",
   "-f",
   "{connection_file}"
  ],
  "display_name": "Python 3.10.5 (gimkl-2022a)",
- "language": "python"
+ "language": "python",
+ "env": {
+  "NESI_KERNEL_NAME": "JupyterKernel/Python-3.10.5-gimkl-2022a",
+  "NESI_MODULES": "JupyterLab/2023.1.0-gimkl-2022a-3.5.3 TensorFlow/2.8.2-gimkl-2022a-Python-3.10.5"
+ }
 }

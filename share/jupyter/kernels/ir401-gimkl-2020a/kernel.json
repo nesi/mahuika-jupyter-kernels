@@ -1,5 +1,9 @@
 {
-  "argv": ["ir401-gimkl-2020a.sh", "--slave", "-e", "IRkernel::main()", "--args", "{connection_file}"],
+  "argv": ["nesi-kernel-runner.sh", "R", "--slave", "-e", "IRkernel::main()", "--args", "{connection_file}"],
   "display_name": "R 4.0.1 (gimkl-2020a)",
-  "language": "R"
+  "language": "R",
+  "env": {
+    "NESI_KERNEL_NAME": "JupyterKernel/R-4.0.1-gimkl-2020a",
+    "NESI_MODULES": "R-bundle-Bioconductor/3.11-gimkl-2020a-R-4.0.1 IRkernel/1.1.1-gimkl-2020a-R-4.0.1"
+  }
 }

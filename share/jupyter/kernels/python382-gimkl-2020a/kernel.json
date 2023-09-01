@@ -1,9 +1,16 @@
 {
  "argv": [
-  "python382-gimkl-2020a.sh",
+  "nesi-kernel-runner.sh",
+  "python",
+  "-m",
+  "ipykernel_launcher",
   "-f",
   "{connection_file}"
  ],
  "display_name": "Python 3.8.2 (gimkl-2020a)",
- "language": "python"
+ "language": "python",
+ "env": {
+  "NESI_KERNEL_NAME": "JupyterKernel/Python-3.8.2-gimkl-2020a",
+  "NESI_MODULES": "TensorFlow/2.3.1-gimkl-2020a-Python-3.8.2"
+ }
 }
