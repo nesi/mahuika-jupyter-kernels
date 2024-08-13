@@ -1,5 +1,8 @@
 {
-  "argv": ["ir421-gimkl-2022a.sh", "--slave", "-e", "IRkernel::main()", "--args", "{connection_file}"],
+  "argv": ["nesi-kernel-runner.sh", "R", "--slave", "-e", "IRkernel::main()", "--args", "{connection_file}"],
   "display_name": "R 4.2.1 (gimkl-2022a)",
-  "language": "R"
+  "language": "R",
+  "env": {
+    "NESI_KERNEL_MODULE": "JupyterKernel/2022.11.0-gimkl-2022a-R-4.2.1"
+  }
 }

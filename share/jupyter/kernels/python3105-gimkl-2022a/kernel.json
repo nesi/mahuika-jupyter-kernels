@@ -1,9 +1,15 @@
 {
  "argv": [
-  "python3105-gimkl-2022a.sh",
+  "nesi-kernel-runner.sh",
+  "python",
+  "-m",
+  "ipykernel_launcher",
   "-f",
   "{connection_file}"
  ],
  "display_name": "Python 3.10.5 (gimkl-2022a)",
- "language": "python"
+ "language": "python",
+ "env": {
+  "NESI_KERNEL_MODULE": "JupyterKernel/2023.5.0-gimkl-2022a-Python-3.10.5"
+ }
 }

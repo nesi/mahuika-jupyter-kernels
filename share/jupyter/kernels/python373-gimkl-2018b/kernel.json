@@ -1,9 +1,15 @@
 {
  "argv": [
-  "python373-gimkl-2018b.sh",
+  "nesi-kernel-runner.sh",
+  "python",
+  "-m",
+  "ipykernel_launcher",
   "-f",
   "{connection_file}"
  ],
  "display_name": "Python 3.7.3 (gimkl-2018b)",
- "language": "python"
+ "language": "python",
+ "env": {
+  "NESI_KERNEL_MODULE": "JupyterKernel/2020.10.0-gimkl-2018b-Python-3.7.3"
+ }
 }

@@ -1,9 +1,15 @@
 {
  "argv": [
-  "python395-gimkl-2020a.sh",
+  "nesi-kernel-runner.sh",
+  "python",
+  "-m",
+  "ipykernel_launcher",
   "-f",
   "{connection_file}"
  ],
  "display_name": "Python 3.9.5 (gimkl-2020a)",
- "language": "python"
+ "language": "python",
+ "env": {
+  "NESI_KERNEL_MODULE": "JupyterKernel/2021.8.0-gimkl-2020a-Python-3.9.5"
+ }
 }
