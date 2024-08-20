@@ -1,8 +1,0 @@
-{
-  "argv": ["nesi-kernel-runner.sh", "R", "--slave", "-e", "IRkernel::main()", "--args", "{connection_file}"],
-  "display_name": "R 4.0.1 (gimkl-2020a)",
-  "language": "R",
-  "env": {
-    "NESI_KERNEL_MODULE": "JupyterKernel/2020.10.0-gimkl-2020a-R-4.0.1"
-  }
-}
