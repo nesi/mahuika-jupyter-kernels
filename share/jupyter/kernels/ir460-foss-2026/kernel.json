@@ -1,0 +1,8 @@
+{
+  "argv": ["nesi-kernel-runner.sh", "R", "--slave", "-e", "IRkernel::main()", "--args", "{connection_file}"],
+  "display_name": "R 4.6.0 (foss-2026)",
+  "language": "R",
+  "env": {
+    "NESI_KERNEL_MODULE": "JupyterKernel/2026.9.0-foss-2026-R-4.6.0"
+  }
+}

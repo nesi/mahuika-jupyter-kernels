@@ -7,9 +7,9 @@
   "-f",
   "{connection_file}"
  ],
- "display_name": "Python 3.14.4 (foss-2026)",
+ "display_name": "Python 3.11.6 (foss-2023a)",
  "language": "python",
  "env": {
-  "NESI_KERNEL_MODULE": "JupyterKernel/2026.9.0-foss-2026-Python-3.14.4"
+  "NESI_KERNEL_MODULE": "JupyterKernel/2026.9.0-foss-2023a-Python-3.11.6"
  }
 }

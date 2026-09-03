@@ -1,0 +1,8 @@
+{
+  "argv": ["nesi-kernel-runner.sh", "R", "--slave", "-e", "IRkernel::main()", "--args", "{connection_file}"],
+  "display_name": "R 4.3.2 (foss-2023a)",
+  "language": "R",
+  "env": {
+    "NESI_KERNEL_MODULE": "JupyterKernel/2026.9.0-foss-2023a-R-4.3.2"
+  }
+}
